@@ -1,15 +1,4 @@
 #include<stdio.h>
-int main()
-{
-    //find the largest of any number of numbers
-    int l=largest();
-    //find the sum of digits
-    //s=SOD();
-    //find fibonacci series
-    //f=fibonacci();
-    //Factorial and prime
-    //p[]=fp();
-}
 int largest()
 {
     int n[10],i=0,k;
@@ -31,4 +20,17 @@ int largest()
     }
     printf("largest number is %d",largest);
     return largest;
+}
+
+int main()
+{
+    //find the largest of any number of numbers
+    int l=largest();
+    printf("Largest=:%d",largest);
+    //find the sum of digits
+    //s=SOD();
+    //find fibonacci series
+    //f=fibonacci();
+    //Factorial and prime
+    //p[]=fp();
 }
