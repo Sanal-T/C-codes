@@ -26,11 +26,11 @@ int main()
 {
     //find the largest of any number of numbers
     int l=largest();
-    printf("Largest=:%d",largest);
+    printf("Largest=:%d",l);
     //find the sum of digits
-    //s=SOD();
+    int s=SOD();
     //find fibonacci series
     //f=fibonacci();
     //Factorial and prime
-    //p[]=fp();
+    int p[]=fp();
 }
